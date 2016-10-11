@@ -25,6 +25,8 @@ function closeDb(){
     db.close();
 }
 
-var getDatabase = getDb();
+//var getDatabase = getDb();
+let sampleOb = getDb();
+let sampleOb1 = {};
 
-export {closeDb, getDatabase};
+export {sampleOb, sampleOb1};

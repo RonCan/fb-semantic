@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.getDatabase = exports.closeDb = undefined;
+exports.sampleOb1 = exports.sampleOb = undefined;
 
 var _mongodb = require('mongodb');
 
@@ -36,8 +36,10 @@ function closeDb() {
   if (!db) db.close();
 }
 
-var getDatabase = getDb();
+//var getDatabase = getDb();
+var sampleOb = getDb();
+var sampleOb1 = {};
 
-exports.closeDb = closeDb;
-exports.getDatabase = getDatabase;
+exports.sampleOb = sampleOb;
+exports.sampleOb1 = sampleOb1;
 //# sourceMappingURL=db.js.map
